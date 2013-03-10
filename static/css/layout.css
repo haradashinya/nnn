@@ -1,0 +1,36 @@
+.gradient, .content li {
+  background-color: #f7f7bb;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(lightgoldenrodyellow), to(#f7f7bb));
+  background-image: -webkit-linear-gradient(lightgoldenrodyellow, #f7f7bb);
+  background-image: -moz-linear-gradient(lightgoldenrodyellow, #f7f7bb);
+  background-image: -o-linear-gradient(lightgoldenrodyellow, #f7f7bb);
+  background-image: -ms-linear-gradient(lightgoldenrodyellow, #f7f7bb);
+  background-image: linear-gradient(lightgoldenrodyellow, #f7f7bb);
+  background-repeat: repeat-x;
+  -webkit-background-size: 100% 30px;
+  -moz-background-size: 100% 30px;
+  -o-background-size: 100% 30px;
+  background-size: 100% 30px; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+.content a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold; }
+.content li {
+  list-style-type: none;
+  padding: 1rem;
+  border: 2px solid #2e2e2e; }
+.content .more {
+  font-weight: bold;
+  background: lightgrey;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 19px; }
+.content .selected {
+  background: #ffffad; }
+.content .selectedMore {
+  background: #b9b9b9; }

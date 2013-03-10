@@ -1,0 +1,79 @@
+$lightYellow: #fafad2;
+$moreColor: lightgray;
+$defaultSize: 14px;
+
+
+@mixin gradient($from, $to, $height, $pie:"false") {
+  background-color: $to;
+
+  background-image: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+  background-image: -webkit-linear-gradient($from, $to);
+  background-image: -moz-linear-gradient($from, $to);
+  background-image: -o-linear-gradient($from, $to);
+  background-image: -ms-linear-gradient($from, $to);
+  background-image: linear-gradient($from, $to);
+
+  @if $pie == "true" {
+  // For CSS3PIE
+    -pie-background: linear-gradient(90deg, $from,$to);
+  }
+
+  background-repeat: repeat-x;
+
+  -webkit-background-size: 100% $height;
+  -moz-background-size: 100% $height;
+  -o-background-size: 100% $height;
+  background-size: 100% $height;
+}
+
+.gradient {
+  @include gradient($lightYellow, darken($lightYellow,5%), 30px);
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+
+}
+
+.content {
+
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  li {
+    list-style-type: none;
+    padding: 1rem;
+    border: 2px solid #2e2e2e;
+    @extend .gradient;
+  }
+
+  .more {
+    font-weight: bold;
+    background: $moreColor;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: $defaultSize + 5px;
+
+  }
+
+
+  .selected {
+    background: darken(lightYellow,10%);
+  }
+
+  .selectedMore {
+    background: darken($moreColor,10%) ;
+  }
+
+
+}
+
+
+
+
