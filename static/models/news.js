@@ -37,6 +37,7 @@ var NewsModel = function(){
         }
     });
 
+    // launch python app.py at /w_server/server/app.py
     self.fetchLatest = function(callback){
         $.ajax({
             type: "GET",
