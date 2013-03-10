@@ -41,8 +41,7 @@ var NewsModel = function(){
     self.fetchLatest = function(callback){
         $.ajax({
             type: "GET",
-            //url: "http://pickalize.info:3001/latest_number",
-            url: "http://localhost:3000/api/latest",
+            url: "http://pickalize.info:3002/api/latest",
             dataType: "jsonp",
             success:function(data){
               console.log(data);
@@ -56,8 +55,7 @@ var NewsModel = function(){
         var requestNews = function(){
                     $.ajax({
             type: "GET",
-            //url: "http://pickalize.info:3001/latest/"+ num,
-            url: "http://localhost:3000/api/latest/" + num,
+            url: "http://pickalize.info:3002/api/latest/" + num,
             dataType: "jsonp",
             success:function(data){
                 console.log(data);
