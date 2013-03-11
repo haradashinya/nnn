@@ -31,7 +31,7 @@ var NewsCollectionView = function(em){
             var href = $this.data("href");
             $this.addClass("selected");
 
-//            window.location.href = href;
+            window.location.href = href;
         },self);
 
 
