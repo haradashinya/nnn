@@ -22,8 +22,8 @@ var NewsCollectionView = function(em){
 
     em.on("endTemplate",function(res){
         // manage news Items.
-        $(".items").off("click");
-        $(".items").on("click",function(e){
+        $(".items").off("touchstart");
+        $(".items").on("touchstart",function(e){
             e.preventDefault();
             alert("super ");
             var $this = $(this);

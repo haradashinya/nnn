@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa84d630-44a9-40e8-8f7b-e880fee80dc6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/4431a725555b99e53b38898c5c0751165dc30988/layout.scssc" afterPath="$PROJECT_DIR$/.sass-cache/4431a725555b99e53b38898c5c0751165dc30988/layout.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/layout.css" afterPath="$PROJECT_DIR$/static/css/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/scss/layout.scss" afterPath="$PROJECT_DIR$/static/scss/layout.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/view_collection/news_collection_view.js" afterPath="$PROJECT_DIR$/static/view_collection/news_collection_view.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nnn.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="aa84d630-44a9-40e8-8f7b-e880fee80dc6" time="1363004477911" ignored="false" />
     <file path="/layout.scss" changelist="aa84d630-44a9-40e8-8f7b-e880fee80dc6" time="1363007006160" ignored="false" />
     <file path="/news_collection_view.js" changelist="aa84d630-44a9-40e8-8f7b-e880fee80dc6" time="1363008013566" ignored="false" />
-    <file path="$PROJECT_DIR$/../weekly_android/src/com/example/weekly_android/MyActivity.java" changelist="aa84d630-44a9-40e8-8f7b-e880fee80dc6" time="1363008375986" ignored="false" />
+    <file path="$PROJECT_DIR$/../weekly_android/src/com/example/weekly_android/MyActivity.java" changelist="aa84d630-44a9-40e8-8f7b-e880fee80dc6" time="1363008548382" ignored="false" />
+    <file path="/MyActivity.java" changelist="aa84d630-44a9-40e8-8f7b-e880fee80dc6" time="1363008547130" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +109,7 @@
       <file leaf-file-name="news_collection_view.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/view_collection/news_collection_view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="28" selection-start="810" selection-end="810" vertical-scroll-proportion="0.22099447">
+            <state line="25" column="33" selection-start="820" selection-end="820" vertical-scroll-proportion="0.22099447">
               <folding />
             </state>
           </provider>
@@ -557,7 +553,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/view_collection/news_collection_view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="28" selection-start="810" selection-end="810" vertical-scroll-proportion="0.22099447">
+        <state line="25" column="33" selection-start="820" selection-end="820" vertical-scroll-proportion="0.22099447">
           <folding />
         </state>
       </provider>
