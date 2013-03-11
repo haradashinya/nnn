@@ -12,9 +12,26 @@
   -o-background-size: 100% 30px;
   background-size: 100% 30px; }
 
+.gradientMore {
+  background-color: #868686;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(lightgrey), to(#868686));
+  background-image: -webkit-linear-gradient(lightgrey, #868686);
+  background-image: -moz-linear-gradient(lightgrey, #868686);
+  background-image: -o-linear-gradient(lightgrey, #868686);
+  background-image: -ms-linear-gradient(lightgrey, #868686);
+  background-image: linear-gradient(lightgrey, #868686);
+  background-repeat: repeat-x;
+  -webkit-background-size: 100% 30px;
+  -moz-background-size: 100% 30px;
+  -o-background-size: 100% 30px;
+  background-size: 100% 30px; }
+
 body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 .content a {
   text-decoration: none;
@@ -31,6 +48,6 @@ body {
   padding-bottom: 1.5rem;
   font-size: 19px; }
 .content .selected {
-  background: #ffffad; }
+  background: red; }
 .content .selectedMore {
   background: #b9b9b9; }

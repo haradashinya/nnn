@@ -22,34 +22,29 @@ var NewsCollectionView = function(em){
 
     em.on("endTemplate",function(res){
         // manage news Items.
-        $(".items").off("tap");
-        $(".items").on("tap",function(e){
+        $(".items").off("touchstart");
+        $(".items").on("touchstart",function(e){
             var $this = $(this);
             e.preventDefault();
             var href = $this.data("href");
             $this.addClass("selected");
-            $("#main-view").animate({
-                opacity: 0.0
-            },500,"ease-out");
+
             window.location.href = href;
         },self);
 
 
-
-        // manage more button.
-        $(".more").on("tap",function(e){
-            $(".more").off("tap");
-            console.log("tapped");
+        $(".more").on("touchstart",function(e){
+            $(".more").off("touchstart");
             var $this = $(this);
             $this.addClass("selectedMore");
+            console.log("clicked");
             em.emit("pushToItems",null);
             $(".selectedMore").html("Loading...");
         },self);
 
+        });
 
 
-
-    });
 
 
 
