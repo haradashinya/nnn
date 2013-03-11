@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa84d630-44a9-40e8-8f7b-e880fee80dc6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/view_collection/news_collection_view.js" afterPath="$PROJECT_DIR$/static/view_collection/news_collection_view.js" />
     </list>
     <ignored path="nnn.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="aa84d630-44a9-40e8-8f7b-e880fee80dc6" time="1363004477911" ignored="false" />
     <file path="/layout.scss" changelist="aa84d630-44a9-40e8-8f7b-e880fee80dc6" time="1363007006160" ignored="false" />
-    <file path="/news_collection_view.js" changelist="aa84d630-44a9-40e8-8f7b-e880fee80dc6" time="1363008013566" ignored="false" />
-    <file path="$PROJECT_DIR$/../weekly_android/src/com/example/weekly_android/MyActivity.java" changelist="aa84d630-44a9-40e8-8f7b-e880fee80dc6" time="1363008548382" ignored="false" />
-    <file path="/MyActivity.java" changelist="aa84d630-44a9-40e8-8f7b-e880fee80dc6" time="1363008547130" ignored="false" />
+    <file path="/news_collection_view.js" changelist="aa84d630-44a9-40e8-8f7b-e880fee80dc6" time="1363009044485" ignored="false" />
+    <file path="$PROJECT_DIR$/../weekly_android/src/com/example/weekly_android/MyActivity.java" changelist="aa84d630-44a9-40e8-8f7b-e880fee80dc6" time="1363009122223" ignored="false" />
+    <file path="/MyActivity.java" changelist="aa84d630-44a9-40e8-8f7b-e880fee80dc6" time="1363009119410" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,7 @@
       <file leaf-file-name="news_collection_view.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/view_collection/news_collection_view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="9" selection-start="379" selection-end="379" vertical-scroll-proportion="0.08839779">
+            <state line="37" column="0" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.61878455">
               <folding />
             </state>
           </provider>
@@ -562,7 +563,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/view_collection/news_collection_view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="9" selection-start="379" selection-end="379" vertical-scroll-proportion="0.08839779">
+        <state line="37" column="0" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.61878455">
           <folding />
         </state>
       </provider>

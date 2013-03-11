@@ -22,15 +22,11 @@ var NewsCollectionView = function(em){
 
     em.on("endTemplate",function(res){
         // manage news Items.
-        $(".items").off("touchstart");
-        $(".items").on("touchstart",function(e){
-            e.preventDefault();
-            alert("super ");
+        $(".items").off("click");
+        $(".items").on("click",function(e){
             var $this = $(this);
-
             var href = $this.data("href");
             $this.addClass("selected");
-
             window.location.href = href;
         },self);
 
