@@ -44,8 +44,8 @@ body {
   padding: 0;
   margin: 0;
   -webkit-transform: translate3d(0px, 0px, 0px);
-  -webkit-overflow-scrolling: touch;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: "Roboto",sans-serif; }
 
 .content a {
   text-decoration: none;

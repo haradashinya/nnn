@@ -22,18 +22,25 @@ var NewsCollectionView = function(em){
 
     em.on("endTemplate",function(res){
         // manage news Items.
-        $(".items").off("touchstart");
-        $(".items").on("touchstart",function(e){
-            var $this = $(this);
+        $(".items").off("click");
+        $(".items").on("click",function(e){
             e.preventDefault();
+            alert("super ");
+            var $this = $(this);
+
             var href = $this.data("href");
             $this.addClass("selected");
 
-            window.location.href = href;
+//            window.location.href = href;
         },self);
 
 
+
+
+
+
         $(".more").on("touchstart",function(e){
+            console.log("Start");
             $(".more").off("touchstart");
             var $this = $(this);
             $this.addClass("selectedMore");
