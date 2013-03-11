@@ -12,6 +12,20 @@
   -o-background-size: 100% 30px;
   background-size: 100% 30px; }
 
+.gradientSelected, .content .selected {
+  background-color: #ebeb48;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7bb), to(#ebeb48));
+  background-image: -webkit-linear-gradient(#f7f7bb, #ebeb48);
+  background-image: -moz-linear-gradient(#f7f7bb, #ebeb48);
+  background-image: -o-linear-gradient(#f7f7bb, #ebeb48);
+  background-image: -ms-linear-gradient(#f7f7bb, #ebeb48);
+  background-image: linear-gradient(#f7f7bb, #ebeb48);
+  background-repeat: repeat-x;
+  -webkit-background-size: 100% 30px;
+  -moz-background-size: 100% 30px;
+  -o-background-size: 100% 30px;
+  background-size: 100% 30px; }
+
 .gradientMore {
   background-color: #868686;
   background-image: -webkit-gradient(linear, left top, left bottom, from(lightgrey), to(#868686));
@@ -47,7 +61,5 @@ body {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   font-size: 19px; }
-.content .selected {
-  background: red; }
 .content .selectedMore {
   background: #b9b9b9; }
