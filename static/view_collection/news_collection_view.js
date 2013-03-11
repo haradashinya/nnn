@@ -2,7 +2,7 @@ var NewsCollectionView = function(em){
     var self = this;
     self.items = [];
     // go to detail page.
-    em.on("click",function(d){
+    em.on("tap",function(d){
         console.log(d);
     });
     em.on("hideMore",function(res){
@@ -22,8 +22,8 @@ var NewsCollectionView = function(em){
 
     em.on("endTemplate",function(res){
         // manage news Items.
-        $(".items").off("click");
-        $(".items").on("click",function(e){
+        $(".items").off("tap");
+        $(".items").on("tap",function(e){
             var $this = $(this);
             e.preventDefault();
             var href = $this.data("href");
@@ -37,9 +37,9 @@ var NewsCollectionView = function(em){
 
 
         // manage more button.
-        $(".more").on("click",function(e){
-            $(".more").off("click");
-            console.log("clicked");
+        $(".more").on("tap",function(e){
+            $(".more").off("tap");
+            console.log("tapped");
             var $this = $(this);
             $this.addClass("selectedMore");
             em.emit("pushToItems",null);
